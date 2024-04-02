@@ -70,7 +70,7 @@ After defining your module, you can use it in your Terraform configurations like
 module "resource_group" {
   source   = "./RG/resource_group"
   name     = "my-resource-group"
-  location = "East US"
+  location = "Southeast Asia"
   tags     = {
     Environment = "dev"
     Project     = "Project Name"
